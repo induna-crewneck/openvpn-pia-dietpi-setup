@@ -119,8 +119,9 @@ If you see DNS addresses that are located in your home country you have a DNS le
 
 
 
-
 #### Credits
 https://gist.github.com/superjamie/ac55b6d2c080582a3e64
 
 https://github.com/alfredopalhares/openvpn-update-resolv-conf
+
+https://forums.openvpn.net/viewtopic.php?t=26388
