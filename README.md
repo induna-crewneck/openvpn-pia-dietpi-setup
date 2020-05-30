@@ -114,3 +114,12 @@ Now we connect to the Pi using our VNC Viewer. Open Firefox and navigate to iple
 ![Great success!](https://i.imgur.com/F6WtmdD.png)
 
 If you see DNS addresses that are located in your home country you have a DNS leak.
+
+
+
+
+
+
+#### Credits
+https://gist.github.com/superjamie/ac55b6d2c080582a3e64
+https://github.com/alfredopalhares/openvpn-update-resolv-conf
