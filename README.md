@@ -16,9 +16,12 @@ If you're asked if you want to uninstall something, answer n
 
 ### Download, edit and push necessary files
 #### Download
-I used PIA's 4096-bit OpenVPN configuration files. If you want to use the default files replace every instance of 4096 in the code with 2048.
+If you want to get the files freshly from their source to make sure they are up to date and safe, contunue. I also uploaded my files [here](/Files) which you can use as they are not personalized. If you use my files you can skip to [Push](#push)
 
-Download and unpack the [DEFAULT](https://www.privateinternetaccess.com/openvpn/openvpn.zip) or [STRONG](https://www.privateinternetaccess.com/openvpn/openvpn-strong.zip) Configuration Files from PIA.
+Download and unpack the [DEFAULT](https://www.privateinternetaccess.com/openvpn/openvpn.zip) or [STRONG](https://www.privateinternetaccess.com/openvpn/openvpn-strong.zip) Configuration Files from PIA. I used PIA's 4096-bit OpenVPN configuration files. If you want to use the default files replace every instance of 4096 in the code with 2048. 
+
+Download the resolvconf Update script from [here](https://github.com/alfredopalhares/openvpn-update-resolv-conf).
+
 
 #### Edit
 Pick the server that you want to use. For this I will use the US East server. Rename the ovpn file of the server you chose to change the file extension from .ovpn to .conf and replace any spaces with underscores. So "US East.ovpn" becomes "US_East.conf"
