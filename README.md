@@ -13,7 +13,7 @@ apt-get install openresolv
 ```
 If you're asked if you want to uninstall something, answer n 
 
-![Softwareinstall](https://i.imgur.com/qMz33GE.png)
+![Softwareinstall](https://i.imgur.com/s4NZBIw.png)
 
 Also check 'dietpi-services'. You should see 'proftpd', 'dnsmasq', 'openvpn', 'vncserver'.
 
