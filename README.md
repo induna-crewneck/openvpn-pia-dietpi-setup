@@ -62,6 +62,9 @@ enter your username (p*******) and your password in the line below. Ctrl+X to Ex
 ```
 sudo chmod 600 /etc/openvpn/login
 ```
+The openvpn folder look like this now:
+[openvpnfoldercontent](https://i.imgur.com/lr3hK75.png)
+
 Now we need to edit the Client Config files from OpenVPN (this is what ultimately fixed my DNS leaks). The config file is named 'DietPi_OpenVPN_Client.ovpn' and located in two direcories: '/boot/' and '/mnt/dietpi_userdata/'. So pull and edit them; The following to lined need to be deleted:
 ```
 user nobody
