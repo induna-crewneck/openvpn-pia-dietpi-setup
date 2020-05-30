@@ -1,2 +1,2 @@
-# openvpn-pia-dietpi-setup
-OpenVPN PIA setup on DietPi
+# Setting up OpenVPN with PrivateInternetAccess on DietPi
+OpenVPN PIA setup on DietPi 
